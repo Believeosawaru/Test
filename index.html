@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<hmtl>
+  <head>
+    <title>GreenFoods</title>
+    
+    <link
+    rel="stylesheet"
+    href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta
+    name="viewport"
+    content="width= device-width initial-scale: 1">
+    <meta charset="UTF-8">
+  </head>
+  
+  <body>
+    
+    <header id="home">
+      
+      <nav>
+      <div class="topnav" id="myTopnav">
+        <p>
+         
+          <span style="color: lightgreen
+        ;"><i class="fa fa-leaf"></i>
+       Green</span>Foods</p>
+        <a href="#home" id="first-a">
+        <i class="fa fa-home"></i> Home
+        </a> 
+        <a href="#menu"
+        id="second-a">
+        <i class="fa fa-list"></i>
+           Menu
+        </a>
+        <a href="#about"
+        id="third-a">
+        <i class="fa fa-user"></i>
+           About
+        </a>
+
+  <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  
+  </div>
+  
+  </nav>
+  
+    </header>
+    
+    <main>
+    <h1><span style="color: green">Hey Vegeterian.</span></h1>
+    <h4>
+      Get Affordable and fresh <span
+      style="color: green;">
+        greens </span> <br>  delivered to your door-step.
+   </h4>
+    <article>
+    <button>Order Now</button>
+    </article>
+    </main>
+    
+    <section>
+      
+      <h1 id="menu">Our Menu</h1>
+      
+      <section class="section-show">
+        
+     <div class="section-div" id="text-1">
+      <p>Falafel</p>
+      </div>
+      
+        <article>
+        <img
+        src="veggie1.jpg"
+        alt="image"
+        width="50%"
+        height="50%"
+        class="img-show">
+        </article>
+        
+        <article>
+        <button
+        onclick="alert(`We're Sorry. Falafel Is Not Available, For Now.`);
+        "
+        >Order Now</button>
+        </article>
+      </section>
+      
+      <section class="section-show">
+     <div class="section-div" id="text-2">
+      <p>Ratatouille</p>
+      </div>   
+     <article>
+        <img
+        src="veggie2.jpg"
+        alt="image"
+        width="50%"
+        height="50%"
+        class="img-show">
+        </article>
+        
+        <article>
+        <button
+          onclick="alert(`We're Sorry. Ratatouille Is Not Available, For Now.`);
+        ">Order Now</button>
+        </article>
+      </section>
+      
+    </section>
+    
+     <section class="article-show">
+    <div class="section-div" id="text-3">
+    <p>Humitas</p>
+    </div>
+     <article>
+        <img
+        src="veggie3.jpg"
+        alt="image"
+        width="50%"
+        height="50%"
+        class="img-show">
+        </article>
+        
+        <article style="padding-bottom: 18px;
+        margin-bottom: 20px;
+        ">
+          <button onclick="alert(`We're Sorry. Humitas Is Not Available, For Now.`);"
+          >Order Now</button>
+        </article>
+        </section>
+       
+        </section>
+        
+        <div>
+          <h3
+          style="font-family: serif;
+          text-align: center;"
+          >About Us</h3>
+          <div class="div-div">
+            
+          <p style="color: black;">GreenFoods <i class="fa fa-leaf"></i> is A Start-up Restaurant. <br> Our Main Aim Is To Fill <br>The Hungry Stomachs Of Vegeterians.<br>
+          With Our Awesome Menu And Awesome Chefs</p>
+          
+          </div>
+          <article style="display: block;">
+          <section class="m-v-style"><h4 style="color: white">Our Mission</h4>
+          
+          <p style="text-align: left;">We Are On A Mission To Serve Hungry Stomachs At Affordable Rates.</p>
+          
+          </section>
+          
+          <section class="m-v-style"> 
+          
+          <h4 style="color: white">Our Vision</h4>
+          
+          <p style="text-align: left;">We Have A Vision, Of Which All Vegeterians And Veggie Lovers Are Satisfied And Well Nourished</p>
+          
+          </section>
+          
+          </article>
+          <footer>
+          <p style="color: black">@ 6b west-albine street, Kentucky USA</p>
+          </footer>
+        </div>
+    
+   <!--<p class="number">order @ 09017574406</p> -->
+   <script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+   </script>
+  </body>
+</hmtl>
